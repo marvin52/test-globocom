@@ -1,7 +1,7 @@
 ## Instalação
 Clone o repositório na sua máquina e entre nele.
 ```
-git clone git@github.com:marvin522/game.git
+git clone git@github.com:SelecaoGlobocom/marvin-medeiros.git
 cd game/
 ```
 
@@ -38,10 +38,24 @@ O jogo segue o esquema de turnos, onde a cada turno um jogador ataca o outro. Ao
 Cada personagem será informado usando o seguinte padrão:  `nome energia poder`.
 
 ```
-Entre a primeira personagem:
-nome1 40 50
-Entre a segunda personagem:
-nome2 50 40
+Entre o primeiro personagem no seguinte formato:
+<nome> <energia> <poder> Ex.: Paulo 100 30
+$ nome1 100 10
+
+Primeiro jogador definido 
+* Name  : nome1
+* Energy: 100
+* Power : 10
+
+
+Entre o segundo personagem no seguinte formato:
+<nome> <energia> <poder> Ex.: Paulo 100 30
+$ nome2 100 20
+
+Segundo jogador definido 
+* Name  : nome2
+* Energy: 100
+* Power : 20
 ```
 
 ### Saída
@@ -51,10 +65,26 @@ O jogo deverá produzir as seguintes saídas:
 ```
 O jogo começou
 Batalha entre nome1 e nome2
-nome1 atacou nome2
-<mensagem de dano>
-nome2 atacou nome1
-<mensagem de dano>
+
+
+-----[RODADA 1]-----
+
+-> nome1 atacou nome2!
+* D100: 44
+* Normal -3 HP
+-> nome2 ficou com 97 de energia restante!
+
+
+
+-----[RODADA 2]-----
+
+-> nome2 atacou nome1!
+* D100: 80
+* Sorte!!! -8 HP
+-> nome1 ficou com 92 de energia restante!
+
+
 ...
+
 Jogo acabou, o vencedor foi nome1 com HP restante de Y
 ```
