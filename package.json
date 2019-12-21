@@ -1,11 +1,15 @@
 {
   "name": "breath_of_fantasy",
   "version": "1.0.0",
-  "description": "",
+  "description": "A RPG game based on turns, a fight between two players setted by the user!",
   "main": "app.js",
   "scripts": {
+    "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Marvin Medeiros",
+  "engines" : {
+    "node": "v12.14.0"
+  },
   "license": "ISC"
 }
