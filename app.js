@@ -21,7 +21,7 @@ function start() {
 function addPlayer(playerNumber){
     return new Promise((res,rej)=>{
         this.question = function(){
-            rl.question(game.setPlayerQuestion(playerNumber), entry => {
+            rl.question(game.getPlayerQuestion(playerNumber), entry => {
                 if(game.setPlayer(playerNumber, entry)){
                     res(entry)
                 } else {

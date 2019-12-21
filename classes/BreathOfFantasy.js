@@ -18,7 +18,7 @@ class BreathOfFantasy {
      * @param {int} playerNumber 
      * @returns {string}
      */
-    setPlayerQuestion(playerNumber){
+    getPlayerQuestion(playerNumber){
         return playerNumber === 1 ? this.question('primeiro') : this.question('segundo')
     }
 
