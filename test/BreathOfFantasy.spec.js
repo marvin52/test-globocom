@@ -1,4 +1,3 @@
-// test/BreathOfFantasy.spec.js
 const assert = require('assert');
 const BreathOfFantasy = require('./../classes/BreathOfFantasy.js');
 
