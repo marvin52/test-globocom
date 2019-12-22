@@ -2,7 +2,7 @@
 Clone o repositório na sua máquina e entre nele.
 ```
 git clone git@github.com:SelecaoGlobocom/marvin-medeiros.git
-cd game/
+cd marvin-medeiros/
 ```
 
 Instale a versão `v12.14.0` utilizando **nvm** ou outro gerenciador de versões de sua preferência.
