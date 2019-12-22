@@ -5,10 +5,22 @@ git clone git@github.com:SelecaoGlobocom/marvin-medeiros.git
 cd marvin-medeiros/
 ```
 
-Instale a versão `v12.14.0` utilizando **nvm** ou outro gerenciador de versões de sua preferência.
+Utilize a versão `v12.14.0` do nodejs.
 ```
 nvm use v12.14.0
-npm run start
+make install
+```
+
+## Iniciando o game
+Para rodar a aplicação:
+```
+make start
+```
+
+## Testes
+Para rodar os testes 
+```
+make test
 ```
 
 ## 1 - Breath of Fantasy
