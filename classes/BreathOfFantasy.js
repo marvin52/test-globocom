@@ -121,7 +121,7 @@ class BreathOfFantasy {
                     if(attackResult.finish){
                         res(attackResult);
                     } else {
-                        this.rounds(randomNumber, delay)
+                        this.rounds(randomNumber, delayTime)
                                 .then( attackRes => res(attackRes) );
                     }
                 }, delayTime);
