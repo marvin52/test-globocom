@@ -4,12 +4,15 @@
   "description": "A RPG game based on turns, a fight between two players setted by the user!",
   "main": "app.js",
   "scripts": {
-    "start": "node app.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "./node_modules/.bin/node app.js",
+    "test": "./node_modules/.bin/mocha"
   },
   "author": "Marvin Medeiros",
-  "engines" : {
+  "engines": {
     "node": "v12.14.0"
   },
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^6.2.2"
+  }
 }
