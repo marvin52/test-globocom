@@ -23,7 +23,14 @@ Para rodar os testes
 make test
 ```
 
-## 1 - Breath of Fantasy
+## Docker
+Para rodar o jogo no docker utilize os seguintes comandos:
+```
+docker build -t marvin_medeiros .
+docker run -it marvin_medeiros
+```
+
+## Breath of Fantasy
 
 Jogo baseado em turnos onde dois personagens lutam entre si. Cada personagem tem `nome`, `pontos de energia` e `pontos de poder`.
 Os pontos de energia e poder são valores numéricos inteiros. 
